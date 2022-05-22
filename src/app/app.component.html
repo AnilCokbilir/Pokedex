@@ -4,14 +4,24 @@
         <mat-drawer #drawer class="example-sidenav" mode="side">
             <app-sidebar></app-sidebar>
         </mat-drawer>
+<<<<<<< HEAD
       
         <div >
             <router-outlet></router-outlet>
             <button class="sidenav_btn" type="button" mat-button (click)="drawer.toggle()">
                     <mat-icon class="bla" *ngIf="drawer.opened">arrow_back_ios</mat-icon>
                     <mat-icon *ngIf="!drawer.opened">arrow_forward_ios</mat-icon>
+=======
+
+        <div class="example-sidenav-content">
+            <app-startscreen></app-startscreen>
+            <button class="sidenav_btn" type="button" mat-button (click)="drawer.toggle() ">
+                <span class="material-icons">
+                    {{navbarIcon}}
+                </span>
+>>>>>>> 8dd053d (pull)
             </button>
-          </div>
-      
-      </mat-drawer-container>
+        </div>
+
+    </mat-drawer-container>
 </div>
