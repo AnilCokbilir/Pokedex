@@ -7,8 +7,10 @@
       
         <div class="example-sidenav-content">
             <app-startscreen></app-startscreen>
-            <button type="button" mat-button (click)="drawer.toggle()">
-              Toggle sidenav
+            <button class="sidenav_btn" type="button" mat-button (click)="drawer.toggle() ">
+                <span class="material-icons">
+                    {{navbarIcon}}
+                </span>
             </button>
           </div>
       
