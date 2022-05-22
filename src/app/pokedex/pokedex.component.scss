@@ -1,0 +1,27 @@
+.allPokemon {
+    background-color: red;
+    width: 60%;
+    text-align: center;
+}
+
+.smallDetail {
+    height: 60%;
+    background-color: blue;
+}
+
+.pokeImg {
+    height: 40%;
+    background-color: yellow;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
