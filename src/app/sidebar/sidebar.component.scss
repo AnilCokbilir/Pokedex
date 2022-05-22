@@ -1,0 +1,10 @@
+.sidebar_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_wrapper a{
+    margin-top: 8px;
+    color: green;
+    text-decoration: none;
+}
