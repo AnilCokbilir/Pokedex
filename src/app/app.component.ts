@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  navbarIcon = 'chevron_left';
+  navbarIcon = 'navigate_next';
   title = 'pokedexGruppenarbeit';
 
+  changeIcon(){
+    if(this.navbarIcon == 'chevron_left'){
+      this.navbarIcon = 'navigate_next';
+    }else{
+      this.navbarIcon = 'chevron_left'
+    }
+  }
 }
