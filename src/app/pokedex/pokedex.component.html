@@ -1,7 +1,11 @@
 <div class="flex">
     <div class="allPokemon">
         <h2>All Pokemons</h2>
-
+        <div class="margin-top">
+            <div class="showNames" *ngFor="let names of pokeNames[0]; let i = index">
+                <span>{{names.name.toUpperCase()}}</span>
+            </div>
+        </div>
 
     </div>
     <div class="rightSection">
