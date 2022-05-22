@@ -1,1 +1,16 @@
-<app-startscreen></app-startscreen>
+<app-header></app-header>
+<div class="content">
+    <mat-drawer-container class="example-container" autosize>
+        <mat-drawer #drawer class="example-sidenav" mode="side">
+            <app-sidebar></app-sidebar>
+        </mat-drawer>
+      
+        <div class="example-sidenav-content">
+            <app-startscreen></app-startscreen>
+            <button type="button" mat-button (click)="drawer.toggle()">
+              Toggle sidenav
+            </button>
+          </div>
+      
+      </mat-drawer-container>
+</div>
