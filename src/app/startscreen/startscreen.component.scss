@@ -1,1 +1,60 @@
+.content_wrapper {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: aqua;
+}
+
+.lower_content {
+    height: 60%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.upper_content {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.welcome_wrapper{
+    height: 90%;
+    width: 50%;
+    background-color: gold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome_wrapper p{
+    font-size: 36px;
+}
+
+.welcome_gif{
+    height: 70%;
+}
+
+.pkm_of_day_wrapper{
+    height: 90%;
+    width: 40%;
+    background-color: gold;
+}
+
+.statistik_wrapper{
+    height: 90%;
+    width: 50%;
+    background-color: gold;
+}
+
+.most_wanted_wrapper{
+    height: 90%;
+    width: 40%;
+    background-color: gold;
+}
 
