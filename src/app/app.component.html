@@ -6,9 +6,9 @@
         </mat-drawer>
       
         <div class="example-sidenav-content">
-            <app-startscreen></app-startscreen>
-            <button class="sidenav_btn" type="button" mat-button (click)="drawer.toggle() ">
-                <span class="material-icons">
+            <router-outlet></router-outlet>
+            <button class="sidenav_btn" type="button" mat-button (click)="drawer.toggle()">
+                <span class="material-icons" (click)="changeIcon()">
                     {{navbarIcon}}
                 </span>
             </button>
