@@ -10,7 +10,7 @@
                 <h2>Pokemon des Tages</h2>
                 <h3>#{{ this.pkmOfDay.id }} {{ this.pkmOfDay.name.charAt(0).toUpperCase() + this.pkmOfDay.name.slice(1) }}</h3>
                 <div *ngFor="let item of this.pkmOfDay.types;" class="type_btn bg_{{item.type.name}}"><div class="icon bug">
-                    <img src="icons/bug.svg"/>
+                    <img src="assets/icons/bug.svg"/>
                 </div> {{item.type.name}} </div>
                 <button mat-raised-button>mehr Details</button>
             </div>

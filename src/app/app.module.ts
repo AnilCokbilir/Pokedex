@@ -13,6 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { PokedexComponent } from './pokedex/pokedex.component';
+import { PokemonDetailViewComponent } from './pokemon-detail-view/pokemon-detail-view.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PokedexComponent } from './pokedex/pokedex.component';
     StartscreenComponent,
     SidebarComponent,
     HeaderComponent,
-    PokedexComponent
+    PokedexComponent,
+    PokemonDetailViewComponent
   ],
   imports: [
     BrowserModule,
