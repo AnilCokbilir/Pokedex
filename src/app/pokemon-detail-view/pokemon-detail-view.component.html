@@ -1,1 +1,127 @@
-<p>pokemon-detail-view works!</p>
+<div class="content_wrapper">
+    <div class="pokemon_general_info_wrapper">
+        <div class="pokemon_general_info_content">
+            <div class="pokemon_general_info_next_pkm">
+                <div class="hwr"><img src="{{ this.img_pkm }}" width="70%" alt=""></div>
+                <div class="hwr next_pkm_info">
+                    <p>#1 Bisasam</p>
+                    <div class="next_pkm_types">
+                        <div *ngFor="let item of this.types;" class="type_btn bg_{{item}}">
+                            <div class="icon {{item}}">
+                                <img src="assets/icons/{{item}}.svg" />
+                            </div>
+                            <div> {{item}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokemon_general_info_previous_pkm">
+                <div class="hwl next_pkm_info"><p>#1 Bisasam</p>
+                    <div class="next_pkm_types">
+                        <div *ngFor="let item of this.types;" class="type_btn bg_{{item}}">
+                            <div class="icon {{item}}">
+                                <img src="assets/icons/{{item}}.svg" />
+                            </div>
+                            <div> {{item}}</div>
+                        </div>
+                    </div></div>
+                <div class="hwl"><img src="{{ this.img_pkm }}" width="70%" alt=""></div>
+            </div>
+            <div class="pokemon_general_info_name">
+                <div>#1 Bisasam</div>
+            </div>
+            <div class="pokemon_general_info_content_pkm_img">
+                <div class="pokemon_img">
+                    <div class="pokemon_img_content">
+                        <div><img src="{{ this.img_pkm }}" width="100%" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pokemon_basestats_wrapper">
+        <div class="pad">
+            <div class="bar">
+                <div class="bar_light_wrapper">
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                </div>
+                <div class="bar_name">
+                    <p>78</p>
+                    <p>HP</p>
+                    
+                </div>
+            </div>
+            <div class="bar">
+                <div class="bar_light_wrapper">
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                </div>
+                <div class="bar_name">
+                    <p>43</p>
+                    <p>Attack</p>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="bar_light_wrapper">
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_off"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                    <div class="bar_light_on"></div>
+                </div>
+                <div class="bar_name">
+                    <p>78</p>
+                    <p>Defense</p>
+                </div>
+            </div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+</div>
